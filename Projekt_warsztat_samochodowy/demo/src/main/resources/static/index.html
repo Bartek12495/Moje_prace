@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Minimalny panel warsztatu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Rejestracja</h2>
+<form id="regForm">
+  <input name="login" id="regUser" placeholder="Login" required>
+  <input name="email" id="regMail" type="email" placeholder="Email" required>
+  <input name="password" id="regPass" type="password" placeholder="Hasło" required>
+  <button type="submit">Zarejestruj</button>
+</form>
+
+<hr>
+
+<h2>Logowanie</h2>
+<form id="logForm">
+  <input name="login" id="logUser" placeholder="Login" required>
+  <input name="password" id="logPass" type="password" placeholder="Hasło" required>
+  <button type="submit">Zaloguj</button>
+</form>
+
+<p id="info"></p>
+
+<div id="cars" class="hidden">
+  <h3>Twoje samochody</h3>
+  <ul id="carList"></ul>
+</div>
+
+<div id="adminPanel" class="hidden">
+  <h3>Panel administratora – użytkownicy</h3>
+  <ul id="userList"></ul>
+</div>
+
+<div id="mechanicPanel" class="hidden">
+  <h3>Panel mechanika – wszystkie naprawy</h3>
+  <button id="loadRepairsBtn">Załaduj wszystkie naprawy</button>
+  <ul id="repairList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
