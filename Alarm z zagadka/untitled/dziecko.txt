@@ -1,0 +1,5 @@
+Ile to 2 + 3?;5
+Ile to 10 - 4?;6
+Ile to 4 + 4?;8
+Ile to 9 - 2?;7
+Policz 1 + 1;2
